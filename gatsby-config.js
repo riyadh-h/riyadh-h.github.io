@@ -6,5 +6,13 @@ module.exports = {
     title: `personal`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    {
+        resolve: '@chakra-ui/gatsby-plugin',
+        options: {
+            resetCss: true,
+            isUsingColorMode: true,
+        },
+    },
+  ],
 }
