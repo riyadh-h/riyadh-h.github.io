@@ -1,1 +1,6 @@
+# Gatsby-related
 .cache
+public
+
+# npm-related
+node_modules
